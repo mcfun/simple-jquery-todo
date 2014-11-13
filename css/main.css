@@ -1,0 +1,220 @@
+
+body {
+	background-image: url('../img/back.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+}
+
+div.b {
+	top: 0px;
+	left: 0px;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(256,256,256, 0.3);
+	overflow: scroll;
+}
+
+button {
+	background-color: #000;
+	color: #fff;
+	border: 1px solid rgba(0,0,0,0);
+}
+
+button:hover {
+	background-color: #fff;
+	color: #000;
+	border: 1px solid #000;
+}
+
+ul {
+	list-style-type: none;
+}
+
+#date {
+	display: inline-block;
+	float: right;
+	padding: 5px;
+	font-style: italic;
+}
+
+.todo-root {
+	border: 2px solid #333;
+	max-width: 500px;
+	margin: 40px auto 0 auto;
+	background-color: rgba(255, 255, 255, 0.7)
+}
+
+.todo-style-opt-1 * {
+	background-color: #000;
+	color: #fff;
+}
+
+.todo-title-bar {
+	font-size: 14px;
+	border-bottom: 1px solid #222;
+
+}
+.todo-title-bar p {
+
+	margin: 2px;
+	padding: 15px 0 15px 30px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.todo-menu {
+	font-size: 12px;
+}
+
+.todo-menu ul {
+	padding: 0;
+	margin: 0 0 0 0;
+}
+.todo-menu ul li {
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+	margin-right: -4px;
+
+}
+
+.todo-menu ul li:hover:last-child {
+	border-right: 1px solid #000;
+}
+
+.menu-button {
+	padding: 5px 20px;
+	border: 0;
+	border-bottom: 1px solid #000;
+}	
+
+.menu-button:hover {
+	background-color: #fff;
+	color: #000;
+	border: 0;
+	border-bottom: 1px solid #000;
+}
+
+.main {
+	margin: 0 35px 35px 35px;
+	clear: both;
+}
+
+.new-task-cont {
+
+}
+
+.new-task-cont input {
+	margin-left: 39px;
+	max-width: 340px;
+}
+
+.new-task-cont button {
+	margin-left: 10px;
+}
+.todo-items {
+
+}
+
+.todo-items ul {
+	margin-left: -30px;
+}
+
+.item {
+	padding-top: 1px;
+	margin-bottom: 10px;
+	display: block;
+	min-height: 30px;
+	border-bottom: 1px solid #000;
+}
+
+
+.completed-items {
+
+}
+
+.completed-items ul {
+	margin-left: -30px;
+}
+
+.completed-items label {
+	text-decoration: line-through;
+}
+
+.g-task-button {
+	margin-left: 15px;
+}
+
+.item-text-input {
+	margin: 0;
+	margin-left: 15px;
+	width: 340px;
+	display: none;
+	padding: 0;
+}
+
+.delete {
+	height: 20px;
+	width: 20px;
+	background-color: rgb(255, 50, 0);
+	font-size: 10px;
+	
+	float: right;
+}
+
+.delete:hover {
+	color: rgb(255, 50, 0);
+	border: 1px solid rgb(255, 50, 0);
+}
+.editMode {
+
+}
+
+.editMode label {
+	display: none;
+}
+
+.editMode input[type="text"] {
+	display: inline-block;
+}
+
+.editMode .item-text-input {
+	display: inline-block;
+}
+
+.incomplete-task {
+	
+}
+
+.incomplete-task label {
+	border: 1px solid rgba(0,0,0,0);
+	position: relative;
+	display: inline-block;
+	max-width: 340px;
+}
+
+.incomplete-task input[type=text] {
+	display: none;
+}
+
+label {
+	display: inline-block;
+	margin-left: 15px;
+	max-width: 340px;
+
+}
+
+.editMode {
+	
+}
+
+.editMode label {
+	display: none;
+}
+
+
+.editMode input[type=text]{
+	display: inline-block;
+}

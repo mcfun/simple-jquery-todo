@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang='en'>
+	<head>
+		
+		<meta charset='utf-8'>
+		<meta http-equiv='X-UA-Compatible' content='IE=Edge'>
+		<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+		<meta name='description' content='Web developer and programmer.'>
+		<meta name='author' content='Ian D. McCunn'>
+
+		<link rel='icon'  href='img/object.ico'>
+		<link rel='stylesheet' type='text/css' href='css/normalize.css'>
+		<link rel='stylesheet' type='text/css' href='css/main.css'>
+
+		<title>A Todo</title>
+
+	</head>
+	<body>
+	    <div class='b'>
+	        <div class="todo-root">
+	            <div class="todo-title-bar">
+	                <p>Todo List</p>
+	                <date id="date"></date>
+	            </div>
+	            <ul>
+	                <li>Type in a todo item and press enter or click the button.</li>
+	                <br>
+	                <li>Click on a Todo item to edit it.</li>
+	            </ul>
+	            <div class="main">
+	                <div class="new-task-cont">
+	                     <h6>Add Todo Item</h6>
+
+	                    <input type="text" id="new-task">
+	                    <button id="new-task-button">Add Task Item</button>
+	                </div>
+	                 <h6>Todo Items</h6>
+
+	                <!-- Incomplete Todo Items -->
+	                <div class="todo-items">
+	                    <ul id="todo-items"></ul>
+	                </div>
+	                 <h6>Completed Items</h6>
+
+	                <div class="completed-items">
+	                    <ul id="completed-tasks"></ul>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+	</body>
+
+	<script type='text/javascript' src='js/jquery-1.10.2.js'></script>
+	<script type='text/javascript' src='js/todo-list.js'></script>
+</html>
